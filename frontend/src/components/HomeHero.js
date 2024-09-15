@@ -36,7 +36,7 @@ const HomeHero = () => {
             </h1>
             <div className="d-grid gap-5">
               <Link to="/new-car" className="btn btn-primary">
-                Buy New Car
+                Find New Car
               </Link>
               <Link to="/used-car" className="btn btn-primary">
                 Buy Used Car

@@ -1,14 +1,19 @@
 import React from "react";
 
+import SuggestedForYou from "../components/Suggestion";
 import Filters from "../components/SidebarFilters";
 import CarList from "../components/CarList";
 
 const NewCar = () => {
   return (
     <div>
-      <h1>Hellow World</h1>
-      <Filters />
-      <CarList />
+      <div>
+        <SuggestedForYou />
+      </div>
+      <div className="d-flex">
+        <Filters />
+        <CarList />
+      </div>
     </div>
   );
 };

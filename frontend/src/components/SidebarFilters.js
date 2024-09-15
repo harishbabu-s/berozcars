@@ -2,7 +2,7 @@ import React from "react";
 
 const SidebarFilters = () => {
   return (
-    <div className="sidebar">
+    <aside className="sidebar">
       <h5>Filters</h5>
       <div className="filter-section">
         <h6>Price</h6>
@@ -16,7 +16,7 @@ const SidebarFilters = () => {
         </select>
       </div>
       {/* Add other filter sections similarly */}
-    </div>
+    </aside>
   );
 };
 
