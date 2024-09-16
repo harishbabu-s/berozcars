@@ -3,8 +3,10 @@ import Hero from "../components/HomeHero";
 
 const Home = () => {
   return (
-    <div>
-      <Hero />;
+    <div className="container mt-6 ">
+      <div className="row">
+        <Hero />;
+      </div>
     </div>
   );
 };

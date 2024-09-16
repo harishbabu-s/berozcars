@@ -35,14 +35,14 @@ const HomeHero = () => {
               Find Your Perfect Car
             </h1>
             <div className="d-grid gap-5">
-              <Link to="/new-car" className="btn btn-primary">
-                Buy New Car
+              <Link to="/find-cars" className="btn btn-primary fw-bold fs-5">
+                Find Cars
               </Link>
-              <Link to="/used-car" className="btn btn-primary">
+              <Link to="/buy-used-car" className="btn btn-primary fw-bold fs-5">
                 Buy Used Car
               </Link>
-              <Link to="/sell-car" className="btn btn-primary">
-                Sell Your Car
+              <Link to="/sell-my-car" className="btn btn-primary fw-bold fs-5">
+                Sell My Car
               </Link>
             </div>
           </div>
